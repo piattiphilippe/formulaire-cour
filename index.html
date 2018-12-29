@@ -79,14 +79,22 @@
      Où habitez vous ? <br><br>
 
      <select name="pays">
-         <option value="france">France</option>
-         <option value="belgique">Belgique</option>
-         <option value="canada">Canada</option>
-         <option value="maroc">Maroc</option>
-         <option value="tunisie">Tunisie</option>
-         <option value="algerie">Algerie</option>
-         <option value="togo">Togo</option>
-         <option value="rwande">Rwanda</option>
+         <optgroup label="Europe">
+            <option value="france">France</option>
+            <option value="belgique">Belgique</option>
+         </optgroup>
+
+         <optgroup label="Amérique">
+            <option value="canada">Canada</option>
+         </optgroup>
+
+         <optgroup label="Afrique">
+            <option value="maroc">Maroc</option>
+            <option value="tunisie">Tunisie</option>
+            <option value="algerie">Algerie</option>
+            <option value="togo">Togo</option>
+            <option value="rwande">Rwanda</option>
+        </optgroup>
      </select><br><br>
 
      <label for="texte">Ecrire votre texte</label>
