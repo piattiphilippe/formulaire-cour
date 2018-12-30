@@ -34,7 +34,7 @@
      <input type="number" name="nombre" id="nombre" min="1" max="10"><br><br>
     
       Homme ou Femme ?<br>
-     <input type="radio" name="sex" value="homme" id="homme">
+     <input type="radio" name="sex" value="homme" id="homme" checked>
      <label for="sex">Homme</label><br>
 
      <input type="radio" name="sex" value="femme" id="femme">
@@ -43,7 +43,7 @@
      <input type="radio" name="age" value="mineur" id="mineur">
      <label for="age">Mineur</label><br>
 
-     <input type="radio" name="age" value="majeur" id="majeur">
+     <input type="radio" name="age" value="majeur" id="majeur" checked>
      <label for="age">Majeur</label><br><br>
 
      Quel(s) sport(s) pratiquez vous ? <br><br>
@@ -60,7 +60,7 @@
      <input type="checkbox" name="sport" value="aviron" id="aviron">
      <label for="aviron">Aviron</label><br>
 
-     <input type="checkbox" name="sport" value="escalade" id="escalade">
+     <input type="checkbox" name="sport" value="escalade" id="escalade" checkend>
      <label for="escalade">Escalade</label><br><br>
 
      Où avez vous voyagé ? <br><br>
@@ -74,7 +74,7 @@
      <input type="checkbox" name="voyage" value="maroc" id="maroc">
      <labe for="maroc">Maroc</labe><br>
 
-     <input type="checkbox" name="voyage" value="canada" id="canada">
+     <input type="checkbox" name="voyage" value="canada" id="canada" checked>
      <label for="canada">Canada</label><br><br>
 
      Où habitez vous ? <br><br>
@@ -86,7 +86,7 @@
          </optgroup>
 
          <optgroup label="Amérique">
-            <option value="canada">Canada</option>
+            <option value="canada" selected>Canada</option>
          </optgroup>
 
          <optgroup label="Afrique">
@@ -99,7 +99,7 @@
      </select><br><br>
 
      <label for="texte">Ecrire votre texte</label>
-     <textarea name="texte" id="texte"></textarea><br><br>
+     <textarea name="texte" id="texte" placeholder="écrivez votre texte ici !"></textarea><br><br>
 
 
      <input type="submit" value="Envoyer le Formulaire !">
