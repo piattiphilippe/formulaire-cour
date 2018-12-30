@@ -13,28 +13,28 @@
     <form action="traitement.php" method="post">
 
      <label for="nom">Votre nom</label>
-     <input type="text" name="nom" id="nom" autocomplete="on" autofocus><br><br>
+     <input type="text" name="nom" id="nom" autocomplete="on" autofocus required><br><br>
 
      <label for="prenom">Votre PRENOM</label>
-     <input type="text" name="prenom" id="prenom" autocomplete="on" ><br><br>
+     <input type="text" name="prenom" id="prenom" autocomplete="on" required><br><br>
     
      <label for="passe">Rentrez votre mot de passe</label>
-     <input type="password" name="passe" id="passe"><br><br>
+     <input type="password" name="passe" id="passe" required><br><br>
 
      <label for="dat">DATE</label>
-     <input type="date" name="dat" id="dat"><br><br>
+     <input type="date" name="dat" id="dat" required><br><br>
 
      <label for="mail">Ecrivez votre email</label>
-     <input type="email" name="mail" id="mail"><br><br>
+     <input type="email" name="mail" id="mail" required><br><br>
 
      <label for="url">Ecrire votre adresse URL</label>
-     <input type="url" name="url" id="url"><br><br>
+     <input type="url" name="url" id="url" required><br><br>
 
      <label for="nombre">Entrez un nombre</label>
-     <input type="number" name="nombre" id="nombre" min="1" max="10"><br><br>
+     <input type="number" name="nombre" id="nombre" min="1" max="10" required><br><br>
     
       Homme ou Femme ?<br>
-     <input type="radio" name="sex" value="homme" id="homme" checked>
+     <input type="radio" name="sex" value="homme" id="homme" required>
      <label for="sex">Homme</label><br>
 
      <input type="radio" name="sex" value="femme" id="femme">
@@ -54,7 +54,7 @@
      <input type="checkbox" name="sport" value="boxe" id="boxe">
      <label for="boxe">Boxe</label><br>
     
-     <input type="checkbox" name="sport" value="course_à_pied" id="course_à_pied">
+     <input type="checkbox" name="sport" value="course_à_pied" id="course_à_pied" required>
      <label for="course_à_pied">Course à pied</label><br>
 
      <input type="checkbox" name="sport" value="aviron" id="aviron">
@@ -99,7 +99,7 @@
      </select><br><br>
 
      <label for="texte">Ecrire votre texte</label>
-     <textarea name="texte" id="texte" placeholder="écrivez votre texte ici !"></textarea><br><br>
+     <textarea name="texte" id="texte" placeholder="écrivez votre texte ici !" required></textarea><br><br>
 
 
      <input type="submit" value="Envoyer le Formulaire !">
